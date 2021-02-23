@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tiny_model.xcodeproj">
+      location = "self:/Users/wodyjowski/Documents/!Magisterka/IOS_Project/sign-recognition.xcodeproj">
    </FileRef>
 </Workspace>

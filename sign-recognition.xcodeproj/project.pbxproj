@@ -27,8 +27,7 @@
 
 /* Begin PBXFileReference section */
 		2EFE064221FB1E4C001FD9DC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		2EFE064921FB44B2001FD9DC /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		BC3C745121085D6300F21C9E /* tiny_model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiny_model.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3C745121085D6300F21C9E /* sign-recognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sign-recognition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3C745421085D6300F21C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC3C745621085D6300F21C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC3C745921085D6300F21C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,19 +65,10 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		2EFE064621FB400B001FD9DC /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				2EFE064921FB44B2001FD9DC /* RoundButton.swift */,
-			);
-			name = Controls;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		BC3C744821085D6300F21C9E = {
 			isa = PBXGroup;
 			children = (
-				BC3C745321085D6300F21C9E /* tiny_model */,
+				BC3C745321085D6300F21C9E /* sign-recognition */,
 				BC3C745221085D6300F21C9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,18 +76,17 @@
 		BC3C745221085D6300F21C9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC3C745121085D6300F21C9E /* tiny_model.app */,
+				BC3C745121085D6300F21C9E /* sign-recognition.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3C745321085D6300F21C9E /* tiny_model */ = {
+		BC3C745321085D6300F21C9E /* sign-recognition */ = {
 			isa = PBXGroup;
 			children = (
 				D8F6EB9B21FFC90800DB7A30 /* Settings */,
 				D8F6EB9821FFC36300DB7A30 /* Common */,
 				D8C1DC9521FA7368003007DC /* ImageRecognition */,
-				2EFE064621FB400B001FD9DC /* Controls */,
 				2EFE063F21FB1D91001FD9DC /* Login */,
 				D8C1DC9A21FA7473003007DC /* images */,
 				BC3C745821085D6300F21C9E /* Main.storyboard */,
@@ -105,7 +94,7 @@
 				BC3C745D21085D6400F21C9E /* LaunchScreen.storyboard */,
 				BC3C746021085D6400F21C9E /* Info.plist */,
 			);
-			path = tiny_model;
+			path = "sign-recognition";
 			sourceTree = "<group>";
 		};
 		D8C1DC9521FA7368003007DC /* ImageRecognition */ = {
@@ -151,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC3C745021085D6300F21C9E /* tiny_model */ = {
+		BC3C745021085D6300F21C9E /* sign-recognition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC3C746321085D6400F21C9E /* Build configuration list for PBXNativeTarget "tiny_model" */;
+			buildConfigurationList = BC3C746321085D6400F21C9E /* Build configuration list for PBXNativeTarget "sign-recognition" */;
 			buildPhases = (
 				BC3C744D21085D6300F21C9E /* Sources */,
 				BC3C744E21085D6300F21C9E /* Frameworks */,
@@ -163,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = tiny_model;
+			name = "sign-recognition";
 			productName = tiny_model;
-			productReference = BC3C745121085D6300F21C9E /* tiny_model.app */;
+			productReference = BC3C745121085D6300F21C9E /* sign-recognition.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC3C744C21085D6300F21C9E /* Build configuration list for PBXProject "tiny_model" */;
+			buildConfigurationList = BC3C744C21085D6300F21C9E /* Build configuration list for PBXProject "sign-recognition" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,7 +186,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC3C745021085D6300F21C9E /* tiny_model */,
+				BC3C745021085D6300F21C9E /* sign-recognition */,
 			);
 		};
 /* End PBXProject section */
@@ -378,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DMJ2T3F5D;
-				INFOPLIST_FILE = tiny_model/Info.plist;
+				INFOPLIST_FILE = "sign-recognition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DMJ2T3F5D;
-				INFOPLIST_FILE = tiny_model/Info.plist;
+				INFOPLIST_FILE = "sign-recognition/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,7 +400,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC3C744C21085D6300F21C9E /* Build configuration list for PBXProject "tiny_model" */ = {
+		BC3C744C21085D6300F21C9E /* Build configuration list for PBXProject "sign-recognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC3C746121085D6400F21C9E /* Debug */,
@@ -420,7 +409,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC3C746321085D6400F21C9E /* Build configuration list for PBXNativeTarget "tiny_model" */ = {
+		BC3C746321085D6400F21C9E /* Build configuration list for PBXNativeTarget "sign-recognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC3C746421085D6400F21C9E /* Debug */,
